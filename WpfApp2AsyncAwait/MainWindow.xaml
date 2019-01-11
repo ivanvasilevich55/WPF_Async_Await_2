@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:WpfApp2AsyncAwait"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Margin="0,0,-67.4,-30">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="184*"/>
+            <ColumnDefinition Width="677*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="27*"/>
+            <RowDefinition Height="43*"/>
+        </Grid.RowDefinitions>
+        <Button Name="btn1" Margin="1.983,47.4,437,109.6" Grid.Row="1" Grid.Column="1" Click="Button_Click"/>
+
+
     </Grid>
 </Window>
